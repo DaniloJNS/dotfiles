@@ -11,7 +11,7 @@ GEM_PACKAGES="neovim"
 for package in $ARCH_PACKAGES
 do
   if ! pacman -Qi "$package" > /dev/null; then
-    sudo pacman -S "$package"
+    pacman -S "$package"
   fi
 done
 
