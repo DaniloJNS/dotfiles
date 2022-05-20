@@ -2,7 +2,7 @@
 ARCH_PACKAGES="git kitty vim ranger base-devel python3 python-pip git clang nodejs
 ruby neovim npm zsh tmux lazygit fish fd bat gopls the_silver_searcher"
 DOTCONFIG="kitty nvim"
-AUR_PACKAGES="python-ueberzug-git bear ctags"
+AUR_PACKAGES="python-ueberzug-git bear ctags nerd-fonts-fire-code"
 PY_PACKAGES="pynvim neovim"
 NPM_PACKAGES="neovim"
 GEM_PACKAGES="neovim"

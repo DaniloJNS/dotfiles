@@ -1,6 +1,5 @@
 " Global Plugins
 let g:coc_global_extensions = [
-        \ 'coc-flutter-tools',
         \ 'coc-snippets',
         \ 'coc-css',
         \ 'coc-json',
@@ -13,11 +12,11 @@ let g:coc_global_extensions = [
         \ 'coc-vimlsp',
         \ 'coc-emmet',
         \ 'coc-prettier',
-        \ 'coc-ultisnips',
         \ 'coc-diagnostic',
         \ 'coc-highlight',
         \ 'coc-clangd',
         \ 'coc-clang-format-style-options',
+        \ 'coc-solargraph'
         \]
 
         autocmd CursorHold * silent call CocActionAsync('highlight')
