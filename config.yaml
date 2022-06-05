@@ -1,0 +1,58 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_i3:
+    src: i3
+    dst: ~/.i3
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  f_starship.toml:
+    src: config/starship.toml
+    dst: ~/.config/starship.toml
+  d_fish:
+    src: config/fish
+    dst: ~/.config/fish
+    chmod: '700'
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
+  d_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  f_picom.conf:
+    src: config/picom.conf
+    dst: ~/.config/picom.conf
+  d_picom:
+    src: config/picom
+    dst: ~/.config/picom
+  d_tmuxinator:
+    src: config/tmuxinator
+    dst: ~/.config/tmuxinator
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  f_setup.sh:
+    src: setup.sh
+    dst: ~/setup.sh
+    chmod: '755'
+profiles:
+  danilo-latitude3420:
+    dotfiles:
+    - d_i3
+    - d_nvim
+    - f_starship.toml
+    - d_fish
+    - d_ranger
+    - d_kitty
+    - d_polybar
+    - f_picom.conf
+    - d_picom
+    - d_tmuxinator
+    - d_rofi
+    - f_setup.sh
