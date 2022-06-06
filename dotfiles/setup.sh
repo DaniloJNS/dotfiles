@@ -2,10 +2,11 @@
 ARCH_PACKAGES="git kitty vim ranger base-devel python3 python-pip git clang nodejs
 ruby neovim npm zsh tmux lazygit fish fd bat gopls the_silver_searcher
 powerline powerline-fonts powerline-go powerline-vim"
-AUR_PACKAGES="python-ueberzug-git bear ctags nerd-fonts-fire-code"
+AUR_PACKAGES="python-ueberzug-git bear ctags nerd-fonts-fire-code
+nerd-fonts-victor-mono ttc-iosevka"
 PY_PACKAGES="pynvim neovim"
 NPM_PACKAGES="neovim"
-GEM_PACKAGES="neovim"
+GEM_PACKAGES="neovim tmuxinator"
 
 # Install Arch packages
 for package in $ARCH_PACKAGES
