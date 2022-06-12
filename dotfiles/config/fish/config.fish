@@ -2,16 +2,17 @@ set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
-## set editor env
-set -x EDITOR "nvim"
 set -x DOWNGRADE_FROM_ALA 1
 
 ## set editor
 set -x EDITOR "nvim"
+
 ## set fish shell env
 set -x shell "/usr/bin/fish"
+
 ## set browser 
 set -x BROWSER "/usr/bin/google-chrome-stable"
+
 # set path to asdf
 source ~/.asdf/asdf.fish
  
@@ -31,6 +32,7 @@ fzf_configure_bindings --git_status=\cg --history=\co --variables --directory=\c
 
 ## Dotdrop alias
 alias dotdrop='~/dotfiles/dotdrop.sh --cfg=~/dotfiles/config.yaml'
+
 ## Aws alias
 alias awsume=". awsume"
 
@@ -72,11 +74,14 @@ alias big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed pac
 alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'			# List amount of -git packages
 alias cl="clear"
 alias youse="cd ~/Repositorios/rebase/workspace/youse"
+alias nv="nvim"
+alias lz="lazygit"
 
 # Common use for tmux
 alias t="tmux"
 alias ts="tmux new -s"
 alias ta="tmux attach -t ."
+alias tl="tmux ls"
 
 # Commom use for docker
 alias dc="docker-compose"

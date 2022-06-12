@@ -1,0 +1,31 @@
+pane	0	1	1	:*	1	~/.tmux	:/home/danilo/.tmux	1	fish	:
+pane	commission-service	1	1	:##*	1	nvim ~/R/r/w/y/commission-service	:/home/danilo/Repositorios/rebase/workspace/youse/commission-service	1	nvim	:nvim
+pane	commission-service	2	0	:-	1	~/R/r/w/y/commission-service	:/home/danilo/Repositorios/rebase/workspace/youse/commission-service	1	fish	:
+pane	nvim	1	1	:*	1	nvim ~/.c/nvim	:/home/danilo/.config/nvim	1	nvim	:nvim
+pane	nvim	2	0	:-	1	~/.c/nvim	:/home/danilo/.config/nvim	1	fish	:
+pane	order_service	1	1	:*	1	~/.c/nvim	:/home/danilo/.config/nvim	1	fish	:
+pane	order_service	2	0	:-	1	~/.a/i/r/2/l/r/g/2/g/resource_flow-0.13.0	:/home/danilo/.asdf/installs/ruby/2.7.2/lib/ruby/gems/2.7.0/gems/resource_flow-0.13.0	1	fish	:
+pane	partner-api	1	1	:##*	1	nvim ~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	1	nvim	:nvim
+pane	partner-api	2	0	:-	1	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	1	fish	:
+pane	partner-api	3	0	:##	1	nvim ~/R/t/i/w/freelancers_tech	:/home/danilo/Repositorios/treinadev/intensivo/workspace/freelancers_tech	1	nvim	:nvim
+pane	partner-service	1	1	:##*	1	nvim ~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	nvim	:nvim
+pane	plugin-insomnia	1	1	:##*	1	nvim ~/.c/I/p/insomnia-plugin-response-dinamic	:/home/danilo/.config/Insomnia/plugins/insomnia-plugin-response-dinamic	1	nvim	:nvim
+pane	rails-graphql	1	1	:##*	1	nvim ~/R/r/s/rails-graphql	:/home/danilo/Repositorios/rebase/study/rails-graphql	1	nvim	:nvim
+pane	sales-service	1	1	:*	1	~/R/r/w/y/sales-service	:/home/danilo/Repositorios/rebase/workspace/youse/sales-service	1	fish	:
+pane	sales-service	2	0	:-	1	~/R/r/w/y/sales-service	:/home/danilo/Repositorios/rebase/workspace/youse/sales-service	1	fish	:
+window	0	1	:fish	1	:*	c1de,212x55,0,0,1	:
+window	commission-service	1	:nvim	1	:##*	c1df,212x55,0,0,2	:
+window	commission-service	2	:fish	0	:-	c1e0,212x55,0,0,3	:
+window	nvim	1	:nvim	1	:*	c1dd,212x55,0,0,0	:
+window	nvim	2	:fish	0	:-	6124,212x55,0,0,15	:
+window	order_service	1	:fish	1	:*	c1e1,212x55,0,0,4	:
+window	order_service	2	:fish	0	:-	c1e2,212x55,0,0,5	:
+window	partner-api	1	:nvim	1	:##*	c1e4,212x55,0,0,7	:
+window	partner-api	2	:fish	0	:-	c1e5,212x55,0,0,8	:
+window	partner-api	3	:nvim	0	:##	c1e6,212x55,0,0,9	:
+window	partner-service	1	:nvim	1	:##*	611f,212x55,0,0,10	:
+window	plugin-insomnia	1	:nvim	1	:##*	6120,212x55,0,0,11	:
+window	rails-graphql	1	:nvim	1	:##*	6121,212x55,0,0,12	:
+window	sales-service	1	:fish	1	:*	6122,212x55,0,0,13	:
+window	sales-service	2	:fish	0	:-	6123,212x55,0,0,14	:
+state	nvim	order_service

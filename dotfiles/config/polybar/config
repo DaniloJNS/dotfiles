@@ -112,7 +112,7 @@ type = custom/script
 
 ; Show the next event and forget cache automatically every 60 minutes
 exec = i3-agenda -c ~/.google_credentials.json -ttl 60
-label-maxlen = 30
+label-maxlen = 25
 label-padding-left = 2
 label-padding-right = 3
 

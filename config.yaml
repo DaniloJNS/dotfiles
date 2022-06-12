@@ -41,6 +41,15 @@ dotfiles:
     src: setup.sh
     dst: ~/setup.sh
     chmod: '755'
+  d_tmux:
+    src: tmux
+    dst: ~/.tmux
+  d_conky:
+    src: config/conky
+    dst: ~/.config/conky
+  d_conky_1:
+    src: conky
+    dst: ~/.conky
 profiles:
   danilo-latitude3420:
     dotfiles:
@@ -56,3 +65,6 @@ profiles:
     - d_tmuxinator
     - d_rofi
     - f_setup.sh
+    - d_tmux
+    - d_conky
+    - d_conky_1
