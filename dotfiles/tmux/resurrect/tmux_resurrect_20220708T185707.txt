@@ -1,0 +1,3 @@
+pane	ufs	1	1	:*	1	nvim ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
+window	ufs	1	:nvim	1	:*	bddd,212x54,0,0,0	:
+state	ufs	

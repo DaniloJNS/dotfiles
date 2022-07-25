@@ -1,0 +1,44 @@
+pane	billing-cloud	1	1	:*	1	nvim ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	nvim	:nvim
+pane	billing-cloud	2	0	:##-	1	lz ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	lazygit	:lazygit
+pane	charge-service	1	1	:*	1	~/R/r/w/y/charge-service	:/home/danilo/Repositorios/rebase/workspace/youse/charge-service	1	fish	:fish
+pane	charge-service	2	0	:##-	1	lz ~/R/r/w/y/charge-service	:/home/danilo/Repositorios/rebase/workspace/youse/charge-service	1	lazygit	:lazygit
+pane	dotfiles	1	1	:*	1	nvim ~/.c/nvim	:/home/danilo/.config/nvim	1	nvim	:nvim
+pane	dotfiles	2	0	:-	1	nvim ~/.c/nvim	:/home/danilo/.config/nvim	1	nvim	:nvim
+pane	dotfiles	3	0	:	1	nvim .tmux.conf.loca ~	:/home/danilo	1	nvim	:nvim .tmux.conf.local
+pane	dotfiles	4	0	:	1	~/.c/polybar	:/home/danilo/.config/polybar	1	fish	:
+pane	partner-api	1	0	:##	1	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	1	fish	:
+pane	partner-api	2	0	:-	1	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	1	fish	:
+pane	partner-api	2	0	:-	2	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	0	fish	:
+pane	partner-api	2	0	:-	3	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	0	fish	:
+pane	partner-api	2	0	:-	4	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	0	fish	:
+pane	partner-api	3	1	:*	1	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	1	fish	:
+pane	partner-api	4	0	:##	1	~/.a/i/r/2/l/r/g/2/g/graphql-1.13.8	:/home/danilo/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/graphql-1.13.8	1	fish	:
+pane	partner-api	5	0	:##	1	~/.a/i/r/2/l/r/g/2/g/youse-sdk-1.71.0	:/home/danilo/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/youse-sdk-1.71.0	1	fish	:
+pane	partner-service	1	1	:*	1	~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	fish	:
+pane	partner-service	2	0	:-	1	~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	fish	:
+pane	policy-service	1	1	:##*	1	nvim ~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	nvim	:nvim
+pane	wiki	1	1	:*	1	nvim ~	:/home/danilo	1	nvim	:nvim
+pane	wiki	2	0	:-	1	~	:/home/danilo	1	fish	:
+pane	youse	1	1	:*	1	nvim ~/R/r/w/y/youse	:/home/danilo/Repositorios/rebase/workspace/youse/youse	1	nvim	:nvim
+pane	youse	2	0	:##-	1	lz ~/R/r/w/y/youse	:/home/danilo/Repositorios/rebase/workspace/youse/youse	1	lazygit	:lazygit
+window	billing-cloud	1	:nvim:billing-cloud	1	:*	e121,212x55,0,0,22	off
+window	billing-cloud	2	:git:billing-cloud	0	:##-	df22,212x54,0,0,23	off
+window	charge-service	1	:fish	1	:*	df23,212x54,0,0,24	off
+window	charge-service	2	:git:charge-service	0	:##-	df24,212x54,0,0,25	off
+window	dotfiles	1	:nvim:nvim	1	:*	bdde,212x54,0,0,1	off
+window	dotfiles	2	:nvim:nvim	0	:-	bddf,212x54,0,0,2	off
+window	dotfiles	3	:nvim .tmux.conf.loca	0	:	c1e0,212x55,0,0,3	off
+window	dotfiles	4	:polybar	0	:	5f21,212x54,0,0,31	off
+window	partner-api	1	:partner-api	0	:##	6120,212x55,0,0,11	off
+window	partner-api	2	:partner-api	0	:-	30a7,212x55,0,0{106x55,0,0,12,105x55,107,0[105x15,107,0,13,105x19,107,16,14,105x19,107,36,15]}	off
+window	partner-api	3	:nvim:partner-api	1	:*	5f25,212x54,0,0,16	off
+window	partner-api	4	:graphql-1.13.8	0	:##	6126,212x55,0,0,17	off
+window	partner-api	5	:youse-sdk-1.71.0	0	:##	6127,212x55,0,0,18	off
+window	partner-service	1	:partners-service	1	:*	5f28,212x54,0,0,19	off
+window	partner-service	2	:git:partners-service	0	:-	e11f,212x55,0,0,20	off
+window	policy-service	1	:policy-service	1	:##*	df27,212x54,0,0,28	off
+window	wiki	1	:nvim:danilo	1	:*	df20,212x54,0,0,21	off
+window	wiki	2	:danilo	0	:-	5f23,212x54,0,0,33	off
+window	youse	1	:youse	1	:*	e128,212x55,0,0,29	off
+window	youse	2	:git:youse	0	:##-	6120,212x55,0,0,30	off
+state	wiki	charge-service

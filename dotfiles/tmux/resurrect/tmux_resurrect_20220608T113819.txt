@@ -1,7 +1,0 @@
-pane	0	1	1	:*	1	~/.tmux	:/home/danilo/.tmux	1	fish	:
-pane	partner-api	1	1	:*	1	~/R/r/w/y/partner-api	:/home/danilo/Repositorios/rebase/workspace/youse/partner-api	1	fish	:
-pane	plugin-insomnia	1	1	:*	1	danilo-latitude3420	:/home/danilo/.config/Insomnia/plugins/insomnia-plugin-request-dinamic	1	fish	:bash /usr/bin/neofetch
-window	0	1	:fish	1	:*	c1de,212x55,0,0,1	:
-window	partner-api	1	:fish	1	:*	c1e1,212x55,0,0,4	:
-window	plugin-insomnia	1	:fish	1	:*	bde4,212x54,0,0,7	:
-state	plugin-insomnia	
