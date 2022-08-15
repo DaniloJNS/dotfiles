@@ -1,0 +1,56 @@
+# /home/danilo/.config/tmuxinator/tasks.yml
+
+name: tasks
+root: ~/
+
+# Optional tmux socket
+# socket_name: foo
+
+# Note that the pre and post options have been deprecated and will be replaced by
+# project hooks.
+
+# Project hooks
+
+# Runs on project start, always
+# on_project_start: docker container start e69
+
+# Run on project start, the first time
+# on_project_first_start: systemctl start docker
+
+# Run on project start, after the first time
+# on_project_restart: command
+
+# Run on project exit ( detaching from tmux session )
+# on_project_exit: systemctl stop docker
+
+# Run on project stop
+# on_project_stop: command
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command: byobu
+
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+startup_window: main
+
+# Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
+startup_pane: 1
+
+# Controls whether the tmux session should be attached to automatically. Defaults to true.
+# attach: false
+
+windows:
+  - main:
+      layout: bf2c,212x54,0,0{104x54,0,0[104x38,0,0,3,104x15,0,39,8],107x54,105,0[107x18,105,0,4,107x6,105,19,5,107x7,105,26,6,107x20,105,34,7]}
+      panes:
+        - nvim +VimwikiIndex
+        - ls
+        - gsleep task burndown.daily
+        - gsleep task summary
+        - gsleep timew summary
+        - tt

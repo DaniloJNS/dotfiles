@@ -5,3 +5,26 @@
 	path = dotfiles/config/ranger/plugins/ranger_devicons
 	url = https://github.com/alexanderjeurissen/ranger_devicons
 
+[submodule "tmux-continuum"]
+	path = dotfiles/tmux/plugins/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum
+
+[submodule "tmux-menus"]
+	path = dotfiles/tmux/plugins/tmux-menus
+	url = https://github.com/jaclu/tmux-menus
+
+[submodule "tmux-resurrect"]
+	path = dotfiles/tmux/plugins/tmux-resurrect
+	url= https://github.com/tmux-plugins/tmux-resurrect
+
+[submodule "tpm"]
+	path = dotfiles/tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+
+[submodule "tmux-powerline"]
+	path = dotfiles/tmux/tmux-powerline
+	url = https://github.com/erikw/tmux-powerline
+
+[submodule "tmux-test"]
+	path = dotfiles/tmux/tmux-test.git
+	url = https://github.com/tmux-plugins/tmux-test

@@ -5,6 +5,7 @@ function aws_eks
 
     nvim ~/.aws/credentials
 
-    zsh -c "awsume $argv"
-    aws eks --region sa-east-1 update-kubeconfig --name $argv
+    awsume $argv
+
+    aws eks --region sa-east0 update-kubeconfig --name $argv
 end

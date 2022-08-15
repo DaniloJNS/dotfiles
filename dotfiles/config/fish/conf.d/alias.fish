@@ -2,7 +2,7 @@
 alias dotdrop='~/dotfiles/dotdrop.sh --cfg=~/dotfiles/config.yaml'
 
 ## Aws alias
-alias awsume=". awsume"
+alias awsume="bass source (which awsume)"
 
 ## Useful aliases
 # Replace ls with exa
@@ -67,6 +67,11 @@ alias jctl="journalctl -p 3 -xb"
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 # For connect AWS
-alias awsume=". awsume"
 alias ssh="kitty +kitten ssh"
-alias ec2="kitty +kitten ssh  -i '~/.ssh/notebook.pem' ubuntu@34.207.95.167"
+alias ec2="kitty +kitten ssh  -i '~/.ssh/notebook.pem'" 
+
+# task warriror
+alias tt="taskwarrior-tui"
+
+# Makefiles alias
+alias jv="make all -f ~/.config/fish/scripts/makefiles/java/Makefile"

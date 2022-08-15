@@ -47,6 +47,7 @@ shade-7 = #F0E6FA
 
 
 [bar/main]
+monitor = ${env:MONITOR:}
 width = 100%
 height = 22
 offset-y = 0

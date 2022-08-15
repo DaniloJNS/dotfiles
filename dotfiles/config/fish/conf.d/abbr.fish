@@ -19,6 +19,10 @@ gabbr ta "tmux attach -t ."
 gabbr tl "tmux ls"
 gabbr tk "tmux kill-session -t"
 gabbr tks "tmux kill-server"
+# Common abbreviation for tmuxinator
+gabbr tx "tmuxinator"
+gabbr txs "tmuxinator start"
+gabbr txn "tmuxinator new"
 # Commom abbreviation for docker
 gabbr dc "docker-compose"
 gabbr dcu "docker-compose up"
