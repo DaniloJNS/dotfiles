@@ -1,0 +1,5 @@
+pane	ufs	1	1	:*	1	nvim ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
+pane	ufs	2	0	:##-	1	tt ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	taskwarrior-tui	:taskwarrior-tui
+window	ufs	1	:nvim:ufs-git	1	:*	bddd,212x54,0,0,0	on
+window	ufs	2	:taskwarrior-tui	0	:##-	bdde,212x54,0,0,1	on
+state	ufs	

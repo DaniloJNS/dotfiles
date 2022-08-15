@@ -1,0 +1,11 @@
+pane	billing-cloud	1	1	:*	1	nvim ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	nvim	:nvim
+pane	billing-cloud	2	0	:##-	1	lz ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	lazygit	:lazygit
+pane	neovim	1	1	:*	1	nvim ~/.c/nvim	:/home/danilo/.config/nvim	1	nvim	:nvim
+pane	ufs	1	1	:*	1	nvim ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
+pane	ufs	2	0	:##-	1	tt ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	taskwarrior-tui	:taskwarrior-tui
+window	billing-cloud	1	:billing-cloud	1	:*	bddf,212x54,0,0,2	on
+window	billing-cloud	2	:git:billing-cloud	0	:##-	bde0,212x54,0,0,3	on
+window	neovim	1	:nvim	1	:*	bde1,212x54,0,0,4	:
+window	ufs	1	:nvim:ufs-git	1	:*	bddd,212x54,0,0,0	on
+window	ufs	2	:taskwarrior-tui	0	:##-	bdde,212x54,0,0,1	on
+state	billing-cloud	neovim

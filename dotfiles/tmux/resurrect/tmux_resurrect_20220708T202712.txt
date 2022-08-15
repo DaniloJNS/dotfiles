@@ -1,7 +1,0 @@
-pane	neovim	1	1	:*	1	nvim ~/.c/nvim	:/home/danilo/.config/nvim	1	nvim	:nvim
-pane	ufs	1	1	:*	1	nvim ~/R/u/p/ARQ	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
-pane	ufs	2	0	:-	1	nvim ~/R/u/p/A/Projeto_de_Arquitetura	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
-window	neovim	1	:fish	1	:*	bddf,212x54,0,0,2	:
-window	ufs	1	:nvim:ufs-git	1	:*	bddd,212x54,0,0,0	off
-window	ufs	2	:nvim:ufs-git	0	:-	bdde,212x54,0,0,1	off
-state	ufs	neovim

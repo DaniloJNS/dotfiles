@@ -1,0 +1,59 @@
+pane	DB	1	1	:*	1	nvim ~/R/w/r/ticket-service	:/home/danilo/Repositorios/workspace/rails_apps/ticket-service	1	nvim	:nvim
+pane	billing-cloud	1	1	:*	1	nvim ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	nvim	:nvim
+pane	billing-cloud	2	0	:-	1	docker-compose exec  ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	docker-compose	:zsh
+pane	billing-cloud	2	0	:-	2	zsh ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	0	zsh	:zsh
+pane	billing-cloud	3	0	:	1	~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	fish	:
+pane	charge-service	1	0	:##-	1	nvim ~/R/r/w/y/charge-service	:/home/danilo/Repositorios/rebase/workspace/youse/charge-service	1	nvim	:nvim
+pane	charge-service	2	1	:*	1	docker-compose exec  ~/R/r/w/y/charge-service	:/home/danilo/Repositorios/rebase/workspace/youse/charge-service	1	docker-compose	:docker-compose exec app bundle exec rails c
+pane	gw-billing	1	1	:*	1	nvim ~/R/r/w/y/gw-billing-center	:/home/danilo/Repositorios/rebase/workspace/youse/gw-billing-center	1	nvim	:nvim
+pane	neovim	1	1	:*	1	nvim ~/.c/fish	:/home/danilo/.config/fish	1	nvim	:nvim
+pane	neovim	2	0	:-	1	~/.aws	:/home/danilo/.aws	1	fish	:
+pane	neovim	3	0	:	1	~/dotfiles	:/home/danilo/dotfiles	1	fish	:
+pane	neovim	3	0	:	2	nvim .gitmodules ~/dotfiles	:/home/danilo/dotfiles	0	nvim	:nvim .gitmodules
+pane	neovim	4	0	:	1	nvim ~/.tmux	:/home/danilo/.tmux	1	nvim	:nvim
+pane	order-service	1	1	:*	1	nvim ~/R/r/w/y/order-service	:/home/danilo/Repositorios/rebase/workspace/youse/order-service	1	nvim	:nvim
+pane	order-service	2	0	:-	1	~/R/r/w/y/order-service	:/home/danilo/Repositorios/rebase/workspace/youse/order-service	1	fish	:
+pane	order-service	3	0	:	1	~/R/r/w/y/order-service	:/home/danilo/Repositorios/rebase/workspace/youse/order-service	1	fish	:
+pane	partner-service	1	1	:*	1	nvim ~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	nvim	:nvim
+pane	partner-service	2	0	:-	1	~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	fish	:
+pane	policy-service	1	0	:-	1	nvim ~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	nvim	:nvim
+pane	policy-service	2	0	:	1	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	fish	:
+pane	policy-service	2	0	:	2	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	fish	:
+pane	policy-service	2	0	:	3	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	fish	:
+pane	policy-service	2	0	:	4	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	fish	:
+pane	policy-service	3	1	:##*	1	nvim logs.txt ~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	nvim	:nvim logs.txt
+pane	policy-service	3	1	:##*	2	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	fish	:
+pane	tasks	1	1	:##*	1	nvim ~	:/home/danilo	0	nvim	:nvim
+pane	tasks	1	1	:##*	2	~/.t/hooks	:/home/danilo/.task/hooks	0	fish	:
+pane	tasks	1	1	:##*	3	gsleep task burndown ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:##*	4	gsleep task summary ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:##*	5	gsleep timew summary ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:##*	6	tt ~	:/home/danilo	1	taskwarrior-tui	:taskwarrior-tui
+pane	tasks	2	0	:-	1	~	:/home/danilo	1	fish	:
+pane	tasks	2	0	:-	2	nvim /usr/share/doc/ ~/.c/task	:/home/danilo/.config/task	0	nvim	:nvim /usr/share/doc/task/rc/dark-green-256.theme
+pane	ufs	1	1	:*	1	nvim ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
+pane	ufs	2	0	:##-	1	lz ~/R/u/p/STL	:/home/danilo/Repositorios/ufs-git	1	lazygit	:lazygit
+window	DB	1	:nvim:ticket-service	1	:*	bdde,212x54,0,0,1	off
+window	billing-cloud	1	:nvim:billing-cloud	1	:*	b9e1,212x53,0,0,4	off
+window	billing-cloud	2	:billing-cloud	0	:-	bf27,212x53,0,0{106x53,0,0,51,105x53,107,0,52}	off
+window	billing-cloud	3	:billing-cloud	0	:	5d24,212x53,0,0,53	off
+window	charge-service	1	:nvim:charge-service	0	:##-	b9e3,212x53,0,0,6	off
+window	charge-service	2	:docker-compose exec 	1	:*	5d25,212x53,0,0,54	off
+window	gw-billing	1	:fish	1	:*	5d29,212x53,0,0,58	:
+window	neovim	1	:nvim:fish	1	:*	5d21,212x53,0,0,12	off
+window	neovim	2	:.aws	0	:-	5d22,212x53,0,0,13	off
+window	neovim	3	:dotfiles	0	:	e068,212x54,0,0{106x54,0,0,14,105x54,107,0,15}	off
+window	neovim	4	:nvim:.tmux	0	:	5f25,212x54,0,0,16	off
+window	order-service	1	:nvim:order-service	1	:*	5f26,212x54,0,0,17	off
+window	order-service	2	:order-service	0	:-	5f27,212x54,0,0,18	off
+window	order-service	3	:order-service	0	:	5f28,212x54,0,0,19	off
+window	partner-service	1	:nvim:partners-servic	1	:*	df1f,212x54,0,0,20	off
+window	partner-service	2	:git:partners-service	0	:-	df20,212x54,0,0,21	off
+window	policy-service	1	:nvim:policy-service	0	:-	df21,212x54,0,0,22	off
+window	policy-service	2	:fish	0	:	5585,212x54,0,0{106x54,0,0,23,105x54,107,0[105x8,107,0,24,105x30,107,9,25,105x14,107,40,26]}	off
+window	policy-service	3	:nvim logs.txt:policy	1	:##*	606c,212x54,0,0{106x54,0,0,27,105x54,107,0,47}	off
+window	tasks	1	:taskwarrior-tui	1	:##*	d8ae,212x53,0,0{114x53,0,0[114x37,0,0,28,114x15,0,38,29],97x53,115,0[97x15,115,0,30,97x9,115,16,31,97x8,115,26,43,97x18,115,35,33]}	off
+window	tasks	2	:danilo	0	:-	b017,212x53,0,0{122x53,0,0,34,89x53,123,0,35}	off
+window	ufs	1	:nvim:ufs-git	1	:*	5d26,212x53,0,0,36	off
+window	ufs	2	:git:ufs-git	0	:##-	dd21,212x53,0,0,60	off
+state	ufs	tasks

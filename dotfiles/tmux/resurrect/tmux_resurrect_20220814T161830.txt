@@ -2,7 +2,7 @@ pane	arq	1	1	:*	1	nvim ~/R/u/p/ARQ	:/home/danilo/Repositorios/ufs-git	1	nvim	:nv
 pane	arq	2	0	:##-	1	lz ~/R/u/p/ARQ	:/home/danilo/Repositorios/ufs-git	1	lazygit	:lazygit
 pane	tasks	1	1	:##*	1	nvim +VimwikiIndex ~	:/home/danilo	1	nvim	:nvim +VimwikiIndex
 pane	tasks	1	1	:##*	2	~	:/home/danilo	0	fish	:
-pane	tasks	1	1	:##*	3	gsleep task burndown ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:##*	3	gsleep task burndown ~	:/home/danilo	0	task	:sleep 5
 pane	tasks	1	1	:##*	4	gsleep task summary ~	:/home/danilo	0	sleep	:sleep 5
 pane	tasks	1	1	:##*	5	gsleep timew summary ~	:/home/danilo	0	sleep	:sleep 5
 pane	tasks	1	1	:##*	6	tt ~	:/home/danilo	0	taskwarrior-tui	:taskwarrior-tui

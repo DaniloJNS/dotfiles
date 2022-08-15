@@ -1,0 +1,12 @@
+pane	tasks	1	1	:*	1	nvim ~	:/home/danilo	1	nvim	:nvim
+pane	tasks	1	1	:*	2	~	:/home/danilo	0	fish	:
+pane	tasks	1	1	:*	3	gsleep task burndown ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:*	4	gsleep task summary ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:*	5	gsleep timew summary ~	:/home/danilo	0	sleep	:sleep 5
+pane	tasks	1	1	:*	6	tt ~	:/home/danilo	0	taskwarrior-tui	:taskwarrior-tui
+pane	tasks	2	0	:-	1	~	:/home/danilo	1	fish	:
+pane	tmuxinator	1	1	:*	1	tmuxinator new youse ~/.c/tmuxinator	:/home/danilo/.config/tmuxinator	1	ruby	:/home/danilo/.asdf/installs/ruby/3.0.2/bin/ruby /home/danilo/.asdf/installs/ruby/3.0.2/bin/tmuxinator new youse
+window	tasks	1	:nvim:danilo	1	:*	e381,212x54,0,0{104x54,0,0[104x38,0,0,31,104x15,0,39,33],107x54,105,0[107x18,105,0,34,107x6,105,19,35,107x7,105,26,36,107x20,105,34,37]}	on
+window	tasks	2	:terminal	0	:-	5f22,212x54,0,0,32	off
+window	tmuxinator	1	:/home/danilo/.asdf/i	1	:*	bddd,212x54,0,0,0	on
+state	tasks	tmuxinator

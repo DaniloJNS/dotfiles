@@ -1,0 +1,62 @@
+pane	12	1	1	:##*	1	nvim ~	:/home/danilo	0	nvim	:nvim
+pane	12	1	1	:##*	2	~	:/home/danilo	0	fish	:
+pane	12	1	1	:##*	3	gsleep task burndown ~	:/home/danilo	0	sleep	:sleep 5
+pane	12	1	1	:##*	4	gsleep task summary ~	:/home/danilo	0	sleep	:sleep 5
+pane	12	1	1	:##*	5	gsleep timew summary ~	:/home/danilo	0	sleep	:sleep 5
+pane	12	1	1	:##*	6	tt ~	:/home/danilo	1	taskwarrior-tui	:taskwarrior-tui
+pane	billing-cloud	1	1	:*	1	nvim ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	nvim	:nvim
+pane	billing-cloud	2	0	:##-	1	lz ~/R/r/w/y/billing-cloud	:/home/danilo/Repositorios/rebase/workspace/youse/billing-cloud	1	lazygit	:lazygit
+pane	db	1	1	:*	1	nvim ~/R/w/r/ticket-service	:/home/danilo/Repositorios/workspace/rails_apps/ticket-service	1	nvim	:nvim
+pane	db	2	0	:-	1	~/R/w/r/ticket-service	:/home/danilo/Repositorios/workspace/rails_apps/ticket-service	1	fish	:
+pane	db	3	0	:##	1	nvim ~/R/t/i/w/freelancers_tech	:/home/danilo/Repositorios/treinadev/intensivo/workspace/freelancers_tech	1	nvim	:nvim
+pane	exercism	1	1	:*	1	nvim ~/R/competitive-programming	:/home/danilo/Repositorios/competitive-programming	1	nvim	:nvim
+pane	handbook	1	0	:##-	1	nvim ~/R/r/w/y/handbook	:/home/danilo/Repositorios/rebase/workspace/youse/handbook	1	nvim	:nvim
+pane	handbook	2	1	:*	1	~/R/r/w/y/handbook	:/home/danilo/Repositorios/rebase/workspace/youse/handbook	1	fish	:
+pane	neovim	1	1	:*	1	nvim ~/.c/n/a/p/vim-maximizer	:/home/danilo/.config/nvim/autoload/plugged/vim-maximizer	1	nvim	:nvim
+pane	neovim	2	0	:-	1	nvim ~/.c/fish	:/home/danilo/.config/fish	1	nvim	:nvim
+pane	neovim	2	0	:-	2	nvim ~/.aws	:/home/danilo/.aws	0	nvim	:nvim
+pane	neovim	3	0	:##	1	nvim config ~/.i3	:/home/danilo/.i3	1	nvim	:nvim config
+pane	neovim	3	0	:##	2	nvim ~/.c/fish	:/home/danilo/.config/fish	0	nvim	:nvim
+pane	neovim	4	0	:##	1	nvim ~/.tmux	:/home/danilo/.tmux	1	nvim	:nvim
+pane	partner-service	1	0	:-	1	nvim ~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	nvim	:nvim
+pane	partner-service	2	1	:*	1	lz ~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	lazygit	:lazygit
+pane	partner-service	3	0	:	1	~/R/r/w/y/partners-service	:/home/danilo/Repositorios/rebase/workspace/youse/partners-service	1	fish	:
+pane	policy-service	1	1	:##*	1	nvim ~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	nvim	:nvim
+pane	policy-service	2	0	:	1	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	fish	:
+pane	policy-service	2	0	:	2	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	fish	:
+pane	policy-service	2	0	:	3	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	fish	:
+pane	policy-service	2	0	:	4	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	fish	:
+pane	policy-service	3	0	:##-	1	nvim logs.txt ~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	0	nvim	:nvim logs.txt
+pane	policy-service	3	0	:##-	2	~/R/r/w/y/policy-service	:/home/danilo/Repositorios/rebase/workspace/youse/policy-service	1	fish	:
+pane	ufs	1	1	:*	1	nvim ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
+pane	ufs	2	0	:##-	1	lz ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	lazygit	:lazygit
+pane	ufs	3	0	:Z	1	nvim ~/R/ufs-git	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
+pane	ufs	3	0	:Z	2	nvim ~/.c/fish	:/home/danilo/.config/fish	0	nvim	:nvim
+pane	ufs	3	0	:Z	3	~/R/u/p/ARQ	:/home/danilo/Repositorios/ufs-git/periodo_4/ARQ	0	fish	:
+pane	youse-sdk	1	1	:*	1	nvim ~/R/r/w/y/youse-sdk-ruby	:/home/danilo/Repositorios/rebase/workspace/youse/youse-sdk-ruby	1	nvim	:nvim
+pane	youse-sdk	2	0	:##-	1	lz ~/R/r/w/y/youse-sdk-ruby	:/home/danilo/Repositorios/rebase/workspace/youse/youse-sdk-ruby	1	lazygit	:lazygit
+window	12	1	:taskwarrior-tui	1	:##*	1597,212x53,0,0{106x53,0,0[106x39,0,0,1,106x13,0,40,2],105x53,107,0[105x16,107,0,3,105x7,107,17,4,105x8,107,25,5,105x19,107,34,6]}	on
+window	billing-cloud	1	:nvim:billing-cloud	1	:*	b9e4,212x53,0,0,7	off
+window	billing-cloud	2	:billing-cloud	0	:##-	b9e5,212x53,0,0,8	off
+window	db	1	:nvim	1	:*	bde6,212x54,0,0,9	on
+window	db	2	:fish	0	:-	5f1f,212x54,0,0,10	on
+window	db	3	:nvim	0	:##	5f20,212x54,0,0,11	on
+window	exercism	1	:nvim	1	:*	5f21,212x54,0,0,12	:
+window	handbook	1	:nvim	0	:##-	5f22,212x54,0,0,13	on
+window	handbook	2	:fish	1	:*	5f23,212x54,0,0,14	on
+window	neovim	1	:nvim:vim-maximizer	1	:*	5d24,212x53,0,0,15	off
+window	neovim	2	:.aws	0	:-	b551,212x53,0,0[212x26,0,0,16,212x26,0,27,17]	off
+window	neovim	3	:dotfiles	0	:##	0755,212x54,0,0[212x27,0,0,18,212x26,0,28,19]	off
+window	neovim	4	:nvim:.tmux	0	:##	df1f,212x54,0,0,20	off
+window	partner-service	1	:nvim:partners-servic	0	:-	dd20,212x53,0,0,21	off
+window	partner-service	2	:git:partners-service	1	:*	dd21,212x53,0,0,22	off
+window	partner-service	3	:partners-service	0	:	df22,212x54,0,0,23	on
+window	policy-service	1	:nvim:policy-service	1	:##*	df23,212x54,0,0,24	off
+window	policy-service	2	:fish	0	:	558a,212x54,0,0{106x54,0,0,25,105x54,107,0[105x8,107,0,26,105x30,107,9,27,105x14,107,40,28]}	off
+window	policy-service	3	:nvim logs.txt:policy	0	:##-	a069,212x54,0,0{106x54,0,0,29,105x54,107,0,30}	off
+window	ufs	1	:git:ufs-git	1	:*	5d21,212x53,0,0,31	off
+window	ufs	2	:git:ufs-git	0	:##-	5d22,212x53,0,0,32	on
+window	ufs	3	:nvim:ufs-git	0	:Z	b8a3,212x53,0,0{107x53,0,0,33,104x53,108,0[104x26,108,0,34,104x26,108,27,36]}	on
+window	youse-sdk	1	:youse-sdk-ruby	1	:*	5d27,212x53,0,0,37	on
+window	youse-sdk	2	:git:youse-sdk-ruby	0	:##-	5d28,212x53,0,0,38	on
+state	partner-service	billing-cloud

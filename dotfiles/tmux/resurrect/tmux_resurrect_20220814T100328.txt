@@ -1,5 +1,4 @@
 pane	arq	1	1	:*	1	nvim ~/R/u/p/ARQ	:/home/danilo/Repositorios/ufs-git	1	nvim	:nvim
-pane	arq	2	0	:##-	1	lz ~/R/u/p/ARQ	:/home/danilo/Repositorios/ufs-git	1	lazygit	:lazygit
 pane	tasks	1	1	:##*	1	nvim +VimwikiIndex ~	:/home/danilo	1	nvim	:nvim +VimwikiIndex
 pane	tasks	1	1	:##*	2	~	:/home/danilo	0	fish	:
 pane	tasks	1	1	:##*	3	gsleep task burndown ~	:/home/danilo	0	sleep	:sleep 5
@@ -9,8 +8,7 @@ pane	tasks	1	1	:##*	6	tt ~	:/home/danilo	0	taskwarrior-tui	:taskwarrior-tui
 pane	tmuxinator	1	0	:-	1	tmuxinator new youse ~/.c/tmuxinator	:/home/danilo/.config/tmuxinator	1	ruby	:/home/danilo/.asdf/installs/ruby/3.0.2/bin/ruby /home/danilo/.asdf/installs/ruby/3.0.2/bin/tmuxinator new youse
 pane	tmuxinator	2	1	:*	1	nvim ~/.c/fish	:/home/danilo/.config/fish/scripts/makefiles/java	1	nvim	:nvim
 pane	ufs	1	1	:*	1	nvim ~/R/u/p/P/unidade_1	:/home/danilo/Repositorios/ufs-git/periodo_4/POO/unidade_1	1	nvim	:nvim
-window	arq	1	:nvim:ufs-git	1	:*	5d25,212x53,0,0,54	on
-window	arq	2	:git:ufs-git	0	:##-	5d26,212x53,0,0,55	on
+window	arq	1	:nvim	1	:*	5d25,212x53,0,0,54	:
 window	tasks	1	:neofetch	1	:##*	e348,212x54,0,0{104x54,0,0[104x38,0,0,46,104x15,0,39,47],107x54,105,0[107x18,105,0,48,107x6,105,19,49,107x7,105,26,50,107x20,105,34,51]}	on
 window	tmuxinator	1	:/home/danilo/.asdf/i	0	:-	bddd,212x54,0,0,0	on
 window	tmuxinator	2	:fish	1	:*	5f24,212x54,0,0,53	off
